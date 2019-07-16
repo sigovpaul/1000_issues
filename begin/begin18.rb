@@ -17,4 +17,3 @@ end
 
 ABC = AC * BC
 puts "Произведение AC и BC равно #{ABC}"
-

@@ -21,7 +21,6 @@ mult = a1 * b1
 devision = a1 / b1 
 text = "квадратов #{a} и #{b}"
 
-
 puts "Cумма #{text} равна #{sum}"
 puts "Разность #{text} равна #{substract}"
 puts "Произведение #{text} равно #{mult}"

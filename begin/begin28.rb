@@ -11,5 +11,3 @@ temp3_A = temp2_A * temp2_A
 puts "A^10 равно #{temp3_A}"
 A = temp2_A * temp3_A 
 puts "A^15 равно #{A}"
-
-

@@ -18,7 +18,6 @@ mult = a * b
 devision = a / b 
 text = "модулей #{a} и #{b}"
 
-
 puts "Cумма #{text} равна #{sum}"
 puts "Разность #{text} равна #{substract}"
 puts "Произведение #{text} равно #{mult}"

@@ -14,11 +14,5 @@ puts "Килограмм A стоит #{price_kg_A}"
 price_kg_B = B / Y
 puts "Килограмм B стоит #{price_kg_B}"
 
-
-
 price_diff = price_kg_A / price_kg_B
 puts "Цена A в #{price_diff} отличается от цены B"
-
-
-
-

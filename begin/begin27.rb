@@ -13,4 +13,3 @@ for i in 1..n
 	A = A ** 2
 	puts A	
 end
-
