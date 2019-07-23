@@ -1,11 +1,11 @@
 error = "введенное число не должно являться нулем, повторите попытку"
-puts " Введите a"
+puts " Введите первое число"
 first_number = gets.chomp.to_f
 while first_number == 0
 	puts error
 	first_number = gets.chomp.to_f
 end
-puts " Введите b"
+puts " Введите второе число"
 second_number = gets.chomp.to_f
 while second_number == 0
 	puts error
@@ -19,7 +19,7 @@ sum = first_number_square + second_number_square
 substract = first_number_square - second_number_square
 mult = first_number_square * second_number_square
 devision = first_number_square / second_number_square
-text = "квадратов #{a} и #{b}"
+text = "квадратов #{first_number} и #{second_number}"
 
 puts "Cумма #{text} равна #{sum}"
 puts "Разность #{text} равна #{substract}"

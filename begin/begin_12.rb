@@ -1,20 +1,19 @@
 ßerror = "Сторона треугольника не может быть меньше или равна нулю, повторите ввод"
-puts " Введите a"
-a = gets.chomp.to_f
-while a <= 0
+puts "Введите первый катет"
+first_side = gets.chomp.to_f
+while first_side <= 0
 	puts error
-	a = gets.chomp.to_f
+	first_side = gets.chomp.to_f
 end
-puts " Введите b"
-b = gets.chomp.to_f
-while b <= 0
+puts " Введите второй катет"
+second_side = gets.chomp.to_f
+while second_side <= 0
 	puts error
-	b = gets.chomp.to_f
+	second_side = gets.chomp.to_f
 end
-
-a1 = a ** 2
-b1 = b ** 2
-c = Math.sqrt( a1 + b1)
-P = a + b + c
-puts "Гипотенуза равна #{c}"
-puts "Периметр треугольника равен #{P}"
+first_side_square = first_side ** 2
+second_side_square = second_side ** 2
+third_side = Math.sqrt( first_side_square + second_side_square)
+perimeter = first_side + second_side + third_side
+puts "Гипотенуза равна #{third_side}"
+puts "Периметр треугольника равен #{perimeter}"
