@@ -17,10 +17,6 @@ substract = a - b
 mult = a * b
 devision = a / b 
 text = "модулей #{a} и #{b}"
-<<<<<<< HEAD
-=======
-
->>>>>>> fca140ddd90d23cbe135efd4f50e77c57ebfc328
 puts "Cумма #{text} равна #{sum}"
 puts "Разность #{text} равна #{substract}"
 puts "Произведение #{text} равно #{mult}"
