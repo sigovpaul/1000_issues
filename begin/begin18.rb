@@ -14,7 +14,5 @@ while AB < AC
 	puts error
 	C = gets.chomp.to_f
 end
-
 ABC = AC * BC
 puts "Произведение AC и BC равно #{ABC}"
-

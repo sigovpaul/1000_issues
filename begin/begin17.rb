@@ -11,4 +11,3 @@ ABC = AC + BC
 text = "Расстояние между точками"
 puts "#{text} A  и  C равно #{AC}.#{text} B и C равно #{BC}"
 puts "Сумма длин AC и BC равна #{ABC}"
-

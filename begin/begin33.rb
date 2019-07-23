@@ -11,7 +11,3 @@ y = gets.chomp.to_f
 
 y_price = y * price_kg
 puts "Введенное количество килограмм стоит #{y_price}"
-
-
-
-

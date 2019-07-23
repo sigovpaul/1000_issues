@@ -11,4 +11,3 @@ while !check
 end 
 angle = alpha / Pi * 180
 puts "значение угла в радианах #{angle}"
-

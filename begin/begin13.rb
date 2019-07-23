@@ -21,17 +21,3 @@ S1 = Pi * ( R1 ** 2 )
 S2 = Pi * ( R2 ** 2 )
 S = S1 - S2
 puts "Разность площадей окружностей #{S1} и #{S2} равна #{S}"
-
-=begin
-while R2 <= 0 || R2 < R1
-	puts error
-	R2 = gets.chomp.to_f
-end
-
-while 
-	puts error1
-	R2 = gets.chomp.to_f
-end
-=end
-
-#sg = Math.sqrt( a * b )
