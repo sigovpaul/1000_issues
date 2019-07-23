@@ -1,11 +1,11 @@
-ßerror = "Сторона треугольника не может быть меньше или равна нулю, повторите ввод"
+error = "Сторона треугольника не может быть меньше или равна нулю, повторите ввод"
 puts "Введите первый катет"
 first_side = gets.chomp.to_f
 while first_side <= 0
 	puts error
 	first_side = gets.chomp.to_f
 end
-puts " Введите второй катет"
+puts "Введите второй катет"
 second_side = gets.chomp.to_f
 while second_side <= 0
 	puts error

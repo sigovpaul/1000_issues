@@ -1,6 +1,6 @@
-puts " Введите x1"
-x1 = gets.chomp.to_f
-puts " Введите x2"
-x2 = gets.chomp.to_f
-L = ( x2 - x1 ).abs
-puts "Расстояние между точками равно #{L}"
+puts " Введите первую координату"
+first_coordinate = gets.chomp.to_f
+puts " Введите вторую координату"
+second_coordinate = gets.chomp.to_f
+length = ( first_coordinate - second_coordinate ).abs
+puts "Расстояние между точками равно #{length}"

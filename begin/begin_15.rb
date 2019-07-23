@@ -1,13 +1,13 @@
 error = "Площадь круга не может иметь нулевое или отрицательное значение, повторите ввод"
 Pi = 3.14
-puts " Введите площадь круга S"
+puts " Введите площадь круга"
 S = gets.chomp.to_f
-while S <= 0
+while circle_square <= 0
 	puts error
-	S = gets.chomp.to_f
+	circle_square = gets.chomp.to_f
 end
 
-R = Math.sqrt (S / Pi)
-D = R * 2 
-L = 2 * Pi * R
-puts "Диаметр окружности равен #{D}. Длина окружности равна #{L}"
+radius = Math.sqrt (circle_square / Pi)
+diameter = radius * 2 
+length = 2 * Pi * radius
+puts "Диаметр окружности равен #{diameter}. Длина окружности равна #{length}"

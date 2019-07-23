@@ -1,5 +1,5 @@
 error = "введенное число не должно являться нулем, повторите попытку"
-puts " Введите первое число"
+puts "Введите первое число"
 first_number = gets.chomp.to_f
 while first_number == 0
 	puts error
