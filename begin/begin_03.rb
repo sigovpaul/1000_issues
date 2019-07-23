@@ -1,9 +1,9 @@
-puts " Введите стороны прямоугольника"
-puts " Введите a"
-a = gets.chomp.to_f
-puts " Введите b"
-b = gets.chomp.to_f
-p = 2 * ( a + b )
-s = a ** 2
-puts "периметр квадрата равен #{p}"
-puts "Площадь квадрата равна #{s}"
+puts "Введите стороны прямоугольника"
+puts "Введите первую сторону"
+first_side = gets.chomp.to_f
+puts " Введите вторуб сторону"
+second_side = gets.chomp.to_f
+perimeter = 2 * ( first_side + second_side )
+square = first_side * second_side
+puts "периметр квадрата равен #{perimeter}"
+puts "Площадь квадрата равна #{square}"

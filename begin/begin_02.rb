@@ -1,4 +1,4 @@
 puts " введите сторону квадрата"
-a = gets.chomp.to_f
-s = a ** 2
-puts "Площадь квадрата равна #{s}"
+side = gets.chomp.to_f
+square = side ** 2
+puts "Площадь квадрата равна #{square}"

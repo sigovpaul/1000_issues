@@ -1,24 +1,24 @@
 error = "введенное число не должно являться нулем, повторите попытку"
 puts " Введите a"
-a = gets.chomp.to_f
-while a == 0
+first_number = gets.chomp.to_f
+while first_number == 0
 	puts error
-	a = gets.chomp.to_f
+	first_number = gets.chomp.to_f
 end
 puts " Введите b"
-b = gets.chomp.to_f
-while b == 0
+second_number = gets.chomp.to_f
+while second_number == 0
 	puts error
-	b = gets.chomp.to_f
+	second_number = gets.chomp.to_f
 end
 
-a1 = a ** 2
-b1 = b ** 2
+first_number_square = first_number ** 2
+second_number_square = second_number ** 2
 
-sum = a1 + b1
-substract = a1 - b1
-mult = a1 * b1
-devision = a1 / b1 
+sum = first_number_square + second_number_square
+substract = first_number_square - second_number_square
+mult = first_number_square * second_number_square
+devision = first_number_square / second_number_square
 text = "квадратов #{a} и #{b}"
 
 puts "Cумма #{text} равна #{sum}"
