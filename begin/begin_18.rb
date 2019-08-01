@@ -1,18 +1,18 @@
 error = "Точка C  должна находиться между точками A и B, повторите ввод"
 puts " Введите A"
-A = gets.chomp.to_f
+first_coordinate = gets.chomp.to_f
 puts " Введите B"
-B = gets.chomp.to_f
+second_coordinate = gets.chomp.to_f
 puts " Введите C"
-C = gets.chomp.to_f
+third_coordinate = gets.chomp.to_f
 
-AC = ( C - A ).abs
-AB = ( B - A ).abs
-BC = ( B - C ).abs
+first_third_distance = ( third_coordinate - first_coordinate ).abs
+first_second_distance = ( second_coordinate - first_coordinate ).abs
+second_third_distance = ( second_coordinate - third_coordinate ).abs
 
-while AB < AC
+while first_second_distance < first_third_distance
 	puts error
-	C = gets.chomp.to_f
+	third_coordinate = gets.chomp.to_f
 end
-ABC = AC * BC
-puts "Произведение AC и BC равно #{ABC}"
+multiplication = first_third_distance * second_third_distance
+puts "Произведение AC и BC равно #{multiplication}"
