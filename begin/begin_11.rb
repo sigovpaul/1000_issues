@@ -17,6 +17,7 @@ substract = first_number- second_number
 mult = first_number * second_number
 devision = first_number / second_number
 text = "модулей #{first_number} и #{second_number}"
+
 puts "Cумма #{text} равна #{sum}"
 puts "Разность #{text} равна #{substract}"
 puts "Произведение #{text} равно #{mult}"

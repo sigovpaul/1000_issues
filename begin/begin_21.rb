@@ -1,30 +1,30 @@
 puts " Введите x1"
-x1 = gets.chomp.to_f
+triangle_top_x1 = gets.chomp.to_f
 puts " Введите y1"
-y1 = gets.chomp.to_f
+triangle_top_y1 = gets.chomp.to_f
 puts " Введите x2"
-x2 = gets.chomp.to_f
+triangle_top_x2 = gets.chomp.to_f
 puts " Введите y2"
-y2 = gets.chomp.to_f
+triangle_top_y2 = gets.chomp.to_f
 puts " Введите x3"
-x3 = gets.chomp.to_f
+triangle_top_x3 = gets.chomp.to_f
 puts " Введите y3"
-y3 = gets.chomp.to_f
+triangle_top_y3 = gets.chomp.to_f
 
-x1x2 = ( x2 - x1 ) ** 2
-y1y2 = ( y2 - y1 ) ** 2
-puts A = Math.sqrt( x1x2 + y1y2 )
+coordinate_square_diff_x2_x1 = ( triangle_top_x2 - triangle_top_x1 ) ** 2
+coordinate_square_diff_y2_y1 = ( triangle_top_y2 - triangle_top_y1 ) ** 2
+puts first_cathet = Math.sqrt( coordinate_square_diff_x2_x1 + coordinate_square_diff_y2_y1 )
 
-x1x3 = ( x3 - x1 ) ** 2
-y1y3 = ( y3 - y1 ) ** 2
-puts B = Math.sqrt( x1x3 + y1y3 )
+coordinate_square_diff_x3_x1 = ( triangle_top_x3 - triangle_top_x1 ) ** 2
+coordinate_square_diff_y3_y1 = ( triangle_top_y3 - triangle_top_y1 ) ** 2
+puts second_cathet = Math.sqrt( coordinate_square_diff_x3_x1 + coordinate_square_diff_y3_y1 )
 
-x2x3 = ( x3 - x2 ) ** 2
-y2y3 = ( y3 - y2 ) ** 2
-puts C = Math.sqrt( x2x3 + y2y3 )
+coordinate_square_diff_x3_x2 = ( triangle_top_x3 - triangle_top_x2 ) ** 2
+coordinate_square_diff_y3_y2 = ( triangle_top_y3 - triangle_top_y2 ) ** 2
+puts third_cathet = Math.sqrt( coordinate_square_diff_x3_x2 + coordinate_square_diff_y3_y2 )
 
-P = A + B + C
-p = P / 2
-S = Math.sqrt( p * ( p - A ) * ( p - B ) * ( p - C ) )
+perimeter = first_cathet + second_cathet + thied_cathet
+half_primeter = perimeter / 2
+triangle_square = Math.sqrt( p * ( p - first_cathet ) * ( p - second_cathet ) * ( p - third_cathet ) )
 
-puts "Периметр равен #{P}. Площадь равна #{S}"
+puts "Периметр равен #{perimeter}. Площадь равна #{triangle_square}"

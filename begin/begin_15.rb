@@ -10,4 +10,5 @@ end
 radius = Math.sqrt (circle_square / Pi)
 diameter = radius * 2 
 length = 2 * Pi * radius
+
 puts "Диаметр окружности равен #{diameter}. Длина окружности равна #{length}"

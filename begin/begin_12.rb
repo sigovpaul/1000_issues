@@ -15,5 +15,6 @@ first_side_square = first_side ** 2
 second_side_square = second_side ** 2
 third_side = Math.sqrt( first_side_square + second_side_square)
 perimeter = first_side + second_side + third_side
+
 puts "Гипотенуза равна #{third_side}"
 puts "Периметр треугольника равен #{perimeter}"

@@ -20,4 +20,5 @@ end
 big_circle_sqaure = Pi * ( big_radius ** 2 )
 small_circle_square = Pi * ( small_radius ** 2 )
 square_diff = big_circle_sqaure - small_circle_square
+
 puts "Разность площадей окружностей #{big_circle_sqaure} и #{small_circle_square} равна #{square_diff}"

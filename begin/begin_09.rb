@@ -12,4 +12,5 @@ while second_number < 0
 	second_number = gets.chomp.to_f
 end
 geometric_mean = Math.sqrt( first_number * second_number )
+
 puts "Среднее геометрическое #{first_number} и #{second_number} равно #{geometric_mean}"

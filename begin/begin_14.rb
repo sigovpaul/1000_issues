@@ -8,4 +8,5 @@ while length <= 0
 end
 radius = length / 2 / Pi 
 circle_square = Pi * ( radius ** 2 )
+
 puts "Радиус окружности равен #{radius}. Площадь равна #{circle_square}"

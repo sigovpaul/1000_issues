@@ -15,4 +15,5 @@ while first_second_distance < first_third_distance
 	third_coordinate = gets.chomp.to_f
 end
 multiplication = first_third_distance * second_third_distance
+
 puts "Произведение AC и BC равно #{multiplication}"
