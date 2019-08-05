@@ -1,13 +1,13 @@
 puts " Введите x1"
-x1 = gets.chomp.to_f
+coordinate_x1 = gets.chomp.to_f
 puts " Введите y1"
-y1 = gets.chomp.to_f
+coordinate_y1 = gets.chomp.to_f
 puts " Введите x2"
-x2 = gets.chomp.to_f
+coordinate_x2 = gets.chomp.to_f
 puts " Введите y2"
-y2 = gets.chomp.to_f
-x1x2 = ( x2 - x1 ).abs
-y1y2 = ( y2 - y1 ).abs
-P = 2 * ( x1x2 + y1y2 )
-S = x1x2 * y1y2
-puts "Периметр прямоугольника равен #{P}. Площадь равна #{S}"
+coordinate_y2 = gets.chomp.to_f
+side_x = ( coordinate_x2 - coordinate_x1 ).abs
+side_y = ( coordinate_y2 - coordinate_y1 ).abs
+perimeter = 2 * ( side_x + side_y )
+square = side_x * side_y
+puts "Периметр прямоугольника равен #{perimeter}. Площадь равна #{square}"

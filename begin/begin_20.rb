@@ -1,12 +1,12 @@
 puts " Введите x1"
-x1 = gets.chomp.to_f
+coordinate_x1 = gets.chomp.to_f
 puts " Введите y1"
-y1 = gets.chomp.to_f
+coordinate_y1 = gets.chomp.to_f
 puts " Введите x2"
-x2 = gets.chomp.to_f
+coordinate_x2 = gets.chomp.to_f
 puts " Введите y2"
-y2 = gets.chomp.to_f
-x1x2 = ( x2 - x1 ) ** 2
-y1y2 = ( y2 - y1 ) ** 2
-S = Math.sqrt( x1x2 + y1y2 )
-puts "Расстояние между точками равно #{S}"
+coordinate_y2 = gets.chomp.to_f
+side_x_square = ( coordinate_x2 - coordinate_x1 ) ** 2
+side_y_square = ( coordinate_y2 - coordinate_y1 ) ** 2
+length = Math.sqrt( side_x_square + side_y_square )
+puts "Расстояние между точками равно #{length}"
