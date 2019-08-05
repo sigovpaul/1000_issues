@@ -1,13 +1,17 @@
-puts " Введите A"
-A = gets.chomp.to_f
+puts " Введите число"
+insput_variable = gets.chomp.to_f
 
-temp2_A = A * A
-puts "A^2 равно #{temp2_A}"
-temp3_A = temp2_A * A
-puts "A^3 равно #{temp3_A}"
-temp2_A = temp2_A * temp3_A
-puts "A^5 равно #{temp2_A}"
-temp3_A = temp2_A * temp2_A
-puts "A^10 равно #{temp3_A}"
-A = temp2_A * temp3_A 
-puts "A^15 равно #{A}"
+first_temp_variable = insput_variable ** 2
+puts "A^2 равно #{first_temp_variable}"
+
+second_temp_variable = first_temp_variable * insput_variable
+puts "A^3 равно #{second_temp_variable}"
+
+first_temp_variable = first_temp_variable * second_temp_variable
+puts "A^5 равно #{first_temp_variable}"
+
+second_temp_variable = first_temp_variable * first_temp_variable
+puts "A^10 равно #{second_temp_variable}"
+
+insput_variable = first_temp_variable * second_temp_variable 
+puts "A^15 равно #{insput_variable}"
