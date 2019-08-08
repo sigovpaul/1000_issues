@@ -1,13 +1,13 @@
 error = "Введенное числе не должно быть равно 0, повторите ввод"
 puts "Введите A"
-A = gets.chomp.to_f
-while A == 0
+variable_a = gets.chomp.to_f
+while variable_a == 0
 	puts error
-	A = gets.chomp.to_f
+	variable_a = gets.chomp.to_f
 end
 
 puts "Введите B"
-B = gets.chomp.to_f
+variable_b = gets.chomp.to_f
 # A * x + B = 0
-x = B * (-1) / A
-puts "x равен #{x}" 
+equation_result_x = variable_b * (-1) / variable_a
+puts "x равен #{equation_result_x}" 

@@ -1,12 +1,12 @@
 puts "Введите скорость первого автомобиля V1"
-V1 = gets.chomp.to_f
+first_vihicle_speed = gets.chomp.to_f
 puts "Введите скорость второго автомобиля V2"
-V2 = gets.chomp.to_f
+second_vihicle_speed = gets.chomp.to_f
 puts "Введите первоначальное расстояние между автомобилями S"
-S = gets.chomp.to_f
+initial_distance = gets.chomp.to_f
 puts "Введите время T"
-T = gets.chomp.to_f
+time = gets.chomp.to_f
 
-S1 = ( S - T * ( V1 + V2 )).abs
+total_distance = ( initial_distance - time * ( first_vihicle_speed + second_vihicle_speed )).abs
 
-puts "Расстояние между автомобилями через #{T} часов равно #{S1}"
+puts "Расстояние между автомобилями через #{time} часов равно #{total_distance}"
