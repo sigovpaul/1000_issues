@@ -1,18 +1,18 @@
 puts "Введите киллограммы X"
-X = gets.chomp.to_f
+weight_x = gets.chomp.to_f
 puts "Введите стоимость A"
-A = gets.chomp.to_f
+price_a = gets.chomp.to_f
 
 puts "Введите киллограммы Y"
-Y = gets.chomp.to_f
+weight_y = gets.chomp.to_f
 puts "Введите стоимость B"
-B = gets.chomp.to_f
+price_b = gets.chomp.to_f
 
-price_kg_A = A / X
-puts "Килограмм A стоит #{price_kg_A}"
+price_kg_a = price_a / weight_x
+puts "Килограмм A стоит #{price_kg_a}"
 
-price_kg_B = B / Y
-puts "Килограмм B стоит #{price_kg_B}"
+price_kg_b = price_b / weight_y
+puts "Килограмм B стоит #{price_kg_b}"
 
-price_diff = price_kg_A / price_kg_B
-puts "Цена A в #{price_diff} отличается от цены B"
+price_diff = price_kg_a / price_kg_b
+puts "Цена A в #{price_diff} раз отличается от цены B"

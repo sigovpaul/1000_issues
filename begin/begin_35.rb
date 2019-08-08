@@ -1,20 +1,20 @@
 error = "Скорость течения не должна быть равной скорости лодки или превышать ее, повторите ввод"
 puts "Введите скорость лодки V"
-V = gets.chomp.to_f
+boat_speed = gets.chomp.to_f
 puts "Введите скорость течения реки U"
-U = gets.chomp.to_f
-while U >= V
+stream_speed = gets.chomp.to_f
+while stream_speed >= boat_speed
 	puts error
-	U = gets.chomp.to_f
+	stream_speed = gets.chomp.to_f
 end
 
 puts "Введите время движения по течению T1"
-T1 = gets.chomp.to_f
+time_up_stream = gets.chomp.to_f
 puts "Введите время движения против течения T2"
-T2 = gets.chomp.to_f
+time_down_stream = gets.chomp.to_f
 
-S1 = V * T1
-S2 = ( V - U ) * T2
-S = S1 + S2
+up_stream_distance = boat_speed * time_up_stream
+down_stream_distance = ( boat_speed - stream_speed ) * time_down_stream
+total_distance = up_stream_distance + down_stream_distance
 
-puts "Расстояние пройденное по озеру #{S1}. по реке #{S2}. Общее расстояние #{S}"
+puts "Расстояние пройденное по озеру #{up_stream_distance}. по реке #{down_stream_distance}. Общее расстояние #{total_distance}"
