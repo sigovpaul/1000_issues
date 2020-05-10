@@ -1,6 +1,6 @@
-puts " Введите a"
+puts "Введите a"
 a = gets.chomp.to_f
-puts " Введите b"
+puts "Введите b"
 b = gets.chomp.to_f
 s = ( a + b ) / 2
 

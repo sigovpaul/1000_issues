@@ -1,11 +1,11 @@
-error = "введенное число не должно являться нулем, повторите попытку"
+error = "Введенное число не должно являться нулем, повторите попытку"
 puts "Введите первое число"
 first_number = gets.chomp.to_f
 while first_number == 0
 	puts error
 	first_number = gets.chomp.to_f
 end
-puts " Введите второе число"
+puts "Введите второе число"
 second_number = gets.chomp.to_f
 while second_number == 0
 	puts error

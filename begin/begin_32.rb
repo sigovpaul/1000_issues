@@ -1,4 +1,4 @@
-puts " Введите темапературу в Цельсиях"
+puts "Введите темапературу в Цельсиях"
 celsius_temperature = gets.chomp.to_f
 fahrenheit_temperature = celsius_temperature * 9 / 5 + 32
 

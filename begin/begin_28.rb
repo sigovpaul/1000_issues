@@ -1,4 +1,4 @@
-puts " Введите число"
+puts "Введите число"
 insput_variable = gets.chomp.to_f
 
 first_temp_variable = insput_variable ** 2

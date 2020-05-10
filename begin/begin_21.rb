@@ -1,14 +1,14 @@
-puts " Введите x1"
+puts "Введите x1"
 triangle_top_x1 = gets.chomp.to_f
-puts " Введите y1"
+puts "Введите y1"
 triangle_top_y1 = gets.chomp.to_f
-puts " Введите x2"
+puts "Введите x2"
 triangle_top_x2 = gets.chomp.to_f
-puts " Введите y2"
+puts "Введите y2"
 triangle_top_y2 = gets.chomp.to_f
-puts " Введите x3"
+puts "Введите x3"
 triangle_top_x3 = gets.chomp.to_f
-puts " Введите y3"
+puts "Введите y3"
 triangle_top_y3 = gets.chomp.to_f
 
 coordinate_square_diff_x2_x1 = ( triangle_top_x2 - triangle_top_x1 ) ** 2

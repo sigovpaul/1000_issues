@@ -1,9 +1,9 @@
 error = "Точка C  должна находиться между точками A и B, повторите ввод"
-puts " Введите A"
+puts "Введите A"
 first_coordinate = gets.chomp.to_f
-puts " Введите B"
+puts "Введите B"
 second_coordinate = gets.chomp.to_f
-puts " Введите C"
+puts "Введите C"
 third_coordinate = gets.chomp.to_f
 
 first_third_distance = ( third_coordinate - first_coordinate ).abs

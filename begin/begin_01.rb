@@ -1,4 +1,4 @@
-puts " введите сторону квадрата"
+puts "Введите сторону квадрата"
 side = gets.chomp.to_f
 perimeter = side * 4
 

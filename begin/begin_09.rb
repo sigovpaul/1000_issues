@@ -1,11 +1,11 @@
 error = "Введенное число является отрицательным, повторите попытку"
-puts " Введите первое число"
+puts "Введите первое число"
 first_number = gets.chomp.to_f
 while first_number < 0
 	puts error
 	first_number = gets.chomp.to_f
 end
-puts " Введите второе число"
+puts "Введите второе число"
 second_number = gets.chomp.to_f
 while second_number < 0
 	puts error

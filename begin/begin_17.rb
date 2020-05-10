@@ -1,8 +1,8 @@
-puts " Введите первую координату"
+puts "Введите первую координату"
 first_coordinate = gets.chomp.to_f
-puts " Введите вторую координату"
+puts "Введите вторую координату"
 second_coordinate = gets.chomp.to_f
-puts " Введите третью координату"
+puts "Введите третью координату"
 third_coordinate = gets.chomp.to_f
 
 puts "Введите первую координату"

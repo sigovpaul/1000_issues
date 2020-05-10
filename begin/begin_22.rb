@@ -1,6 +1,6 @@
-puts " Введите первую переменную"
+puts "Введите первую переменную"
 first_variable = gets.chomp.to_f
-puts " Введите вторую переменную"
+puts "Введите вторую переменную"
 second_variable = gets.chomp.to_f
 
 temp_variavle = second_variable
